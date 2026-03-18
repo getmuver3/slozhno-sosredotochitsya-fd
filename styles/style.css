@@ -334,7 +334,6 @@ img {
 
     .section__content {
         gap: var(--card-gap-s);
-    / / TODO убрать gap
     }
 
     .section__content_alternate {
