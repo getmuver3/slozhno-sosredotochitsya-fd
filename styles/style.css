@@ -261,7 +261,6 @@ img {
         display: grid;
         grid-template-columns: 1fr 2fr;
         padding-inline: 20px;
-        gap: var(--card-gap-s);
     }
 
     .section__card-list_alternate {
