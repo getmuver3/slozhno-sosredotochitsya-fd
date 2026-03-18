@@ -13,7 +13,7 @@
         display: none;
     }
 
-    --cover-image: url('/images/cover-image-light.png');
+    --cover-image: url('../images/cover-image-light.png');
     --subtitle-color: #353430;
     --section-title-color: #353430;
     --header-title-color: #353430;
@@ -21,6 +21,7 @@
     --title-color: #FFC2E6;
     --text-color: #353430;
     --title-decor-color: #353430;
+    --bg-color: #FFF1F7;
 }
 
 @media (prefers-color-scheme: light) {
@@ -28,7 +29,8 @@
         .header__rec {
             display: none;
         }
-        --cover-image: url('/images/cover-image-light.png');
+
+        --cover-image: url('../images/cover-image-light.png');
         --subtitle-color: #353430;
         --section-title-color: #353430;
         --header-title-color: #353430;
@@ -38,3 +40,5 @@
         --title-decor-color: #353430;
     }
 }
+
+

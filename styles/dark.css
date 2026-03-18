@@ -9,7 +9,11 @@
   чем стили в медиазапросе предпочтений пользователя
 */
 :root.theme-dark {
-    --cover-image: url('/images/cover-image-dark.png');
+    .header__rec {
+        display: block;
+    }
+
+    --cover-image: url('../images/cover-image-dark.png');
     --subtitle-color: #000028;
     --section-title-color: #FF0070;
     --header-title-color: #FF0070;
@@ -18,3 +22,4 @@
     --text-color: #F1B2CE;
     --title-decor-color: #FF0070;
 }
+
